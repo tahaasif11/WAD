@@ -1,0 +1,195 @@
+/*col-lg*/
+/*laptop or medium pc*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    
+  
+    .nav .nav-item .nav-link {
+        padding: 10px 25px;
+    }
+    
+    /* .part-img{
+        width: 35%;
+        
+
+    } */
+}
+
+/*as col-md*/
+/*tablet device*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* global style */
+   
+    .heading {
+        margin-bottom: 50px;
+    }
+    .heading h2 {
+        font-size: 28px;
+        line-height: 43px;
+    }
+    .banner {
+        padding-top: 20px;
+    }
+    
+    
+   
+  
+    .about {
+        padding: 20px;
+    }
+    .about .part-txt .title h2 {
+        font-size: 28px;
+        line-height: 43px;
+    }
+    .part-img {
+        width: 40%;
+       
+    }
+    
+    
+}
+
+/*as col-sm*/
+/*large mobile device*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    /* global style */
+   
+    .heading {
+        margin-bottom: 50px;
+    }
+    .heading h2 {
+        font-size: 28px;
+        line-height: 43px;
+    }
+    /* header section */
+  
+    
+    /* banner section */
+    .banner {
+        padding-top: 20px;
+    }
+    .banner .banner-txt {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+    .banner .banner-txt p {
+        font-size: 16px;
+    }
+    
+    /* about section */
+    .about {
+        padding: 60px 0;
+    }
+    .part-img{
+        width: 45%;
+      
+    }
+    .about .part-txt .title {
+        text-align: center;
+    }
+    .about .part-txt .title h2 {
+        font-size: 28px;
+        line-height: 43px;
+    }
+    
+    
+    
+    /* footer section */
+    .footer  {
+        padding: 60px 0;
+    }
+    
+}
+
+/*medium mobile device*/
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+    
+    .heading {
+        margin-bottom: 50px;
+    }
+    .heading h2 {
+        font-size: 28px;
+        line-height: 43px;
+    }
+    
+    
+    .header .bottom-header .logo img {
+        width: 125px;
+    }
+    
+    /* banner section */
+    .banner {
+        padding-top: 20px;
+    }
+    
+    .banner .banner-txt {
+        text-align: center;
+        padding-top: 50px;
+        padding-bottom: 15px;
+    }
+    .banner .banner-txt p {
+        font-size: 16px;
+    }
+    
+    /* about section */
+    .about {
+        padding: 20px;
+    }
+    .part-img{
+        width: 35%;
+       
+
+    }
+    
+    /* footer section */
+    .footer {
+        padding: 60px 0;
+    }
+     
+    
+}
+
+/*small mobile device*/
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    /* global style */
+    
+    .heading {
+        margin-bottom: 50px;
+    }
+    .heading h2 {
+        font-size: 28px;
+        line-height: 43px;
+    }
+    /* header section */
+    
+   
+        .banner {
+        padding-top: 30px;
+        
+    }
+    .about {
+        padding: 20px;
+    }
+    .part-img{
+        width: 35%;
+      
+
+    }
+    .about .part-txt .title {
+        text-align: center;
+    }
+    .about .part-txt .title h2 {
+        font-size: 28px;
+        line-height: 43px;
+    }
+    
+    .footer  {
+        padding: 60px 0;
+    }
+    
+    .iq-portfolio-image
+    {
+        width :35%;
+    }
+    
+}

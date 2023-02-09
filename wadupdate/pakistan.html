@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta charset="utf-8">
+        <meta name="description"
+            content="Automated Hate Speech Detection from twitter and showing statistics of the categories of Hate speech">
+        <meta name="keywords"
+            content="automated hate speech detection and the problem of offensive language,hate speech detection python, hate speech detection model,deep learning for hate speech detection,twitter hate speech detection,hate speech detection online">
+        <meta name="author" content="Spy Hate">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="refresh" content="60">
+        <title>Spy Hate</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style2.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .container {
+                width: 1140px;
+                margin: auto;
+            }
+
+            .menu {
+                margin-right: 50px;
+                text-align: right;
+            }
+
+
+
+            a {
+                color: white;
+            }
+
+            .menu-list ul li {
+                list-style: none;
+                display: inline-block;
+                margin-left: 55px;
+
+            }
+
+            .heading {
+                font-family: 'sans-serif';
+                color: #FFFF;
+                font-size: 20px;
+                text-transform: uppercase;
+
+
+            }
+
+            h1,
+            h2,
+            h3 {
+                font-family: "Josefin Sans", sans-serif;
+            }
+
+            h2 {
+                font-size: 50px;
+                line-height: 60px;
+                font-weight: 700;
+                text-transform: capitalize;
+                color: #4c42c5
+            }
+
+            h1 {
+                font-size: 60px;
+                line-height: 75px;
+                font-weight: 700;
+                text-transform: capitalize;
+                color: #4c42c5;
+            }
+
+            .about {
+                padding-top: 50px;
+            }
+
+            .about .part-img {
+                width: 35%;
+            }
+
+            .about .part-txt p {
+                font-size: 16px;
+                line-height: 30px;
+            }
+        </style>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <div class="container-fluid banner img-fluid">
+            <div class=" container-fluid container-sm">
+                <nav class="navbar navbar-expand-lg bg-transparent">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#"><img class="logo" src="./images/logo1.webp"></a>
+                        <h1 style="color: white;">SPY HATE</h1>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+
+                        <div class="collapse navbar-collapse" id="navbarNav">
+
+                            <ul class="navbar-nav ms-auto">
+
+                                <div class="menu">
+
+                                    <div class="menu-list">
+                                        <ul>
+                                            <li><a href="cpno2.html">Home</a></li>
+                                            <li><a href="others1.html">Others Stats</a> </li>
+                                            <li><a href="#">Pakistan stats</a></li>
+
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="about " id="about">
+
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <div class="part-img">
+                            <div class="row p-7">
+                                <div class="card-body">
+                                    <div class="row p-7" style="margin-top:50px ;margin-bottom: 50px;">
+                                        <img src="./images/about.webp">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-7 col-lg-7 col-md-7">
+
+                            <div class="part-txt" style="padding-top:60px;">
+                                <div>
+                                    <h2 style="color:white;">We Have worked on Three Languages To Identify Hate</h2>
+                                </div>
+                                <p style="color:white;">
+                                    <b>There are many variations of passages of Lorem Ipsum available, but the
+                                        majority have suffered alteration in some form, by injected humour, or
+                                        randomised words which don’t look even slightly believable.</b>
+                                </p>
+                                <ul>
+                                    <li><a>Home</a></li>
+                                    <li><a>Menu</a> </li>
+                                    <li><a>Our Story</a></li>
+                                    <li><a>Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+        </div>
+
+        <div class="row align-items-center" style="padding-top:50px;">
+
+            <div class="container">
+
+                <div class="shadow-sm p-3 mb-5 rounded" style="background:#999a9b;">
+
+                    <div class="card-body">
+                        <h2>Trends</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ipsam,
+                            quisquam at veritatis commodi voluptatum quidem modi eius sunt excepturi
+                            quod id eligendi magnam nisi, earum ex provident inventore cupiditate!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ipsam,
+                            quisquam at veritatis commodi voluptatum quidem modi eius sunt excepturi
+                            quod id eligendi magnam nisi, earum ex provident inventore cupiditate!
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="about" id="about">
+
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="part-img">
+                        <div class="row p-7">
+                            <div class="card-body">
+                                <div class="row p-7" id="chart1">
+                                    <img src="./images/graph1.webp">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-7">
+
+                        <div class="part-txt" style="padding-top:60px;">
+
+                            <h2>MOst Hateful Trends</h2>
+
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                                ipsam, quisquam at veritatis commodi voluptatum quidem modi eius
+                                sunt excepturi quod id eligendi magnam nisi, earum ex provident
+                                inventore cupiditate!Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                                ipsam, quisquam at veritatis commodi voluptatum quidem modi eius
+                                sunt excepturi quod id eligendi magnam nisi, earum ex provident
+                                inventore cupiditate!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div style="background:#999a9b;">
+            <h2 style="text-align:center; font-size:80px; padding:100px;">HaTe AnAlysis</h2>
+        </div>
+
+
+
+
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-7 col-lg-7">
+                    <div class="banner1-txt" style="padding-top:100px;">
+                        <h2 style="font-size:50px;">HatE In EngLisH LanGuaGe</h2>
+                        <p style="padding-top:30px;">Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit.
+                            Laborum
+                            ipsam, quisquam at veritatis commodi voluptatum quidem modi eius
+                            sunt excepturi quod id eligendi magnam nisi, earum ex provident
+                            inventore cupiditate!Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                            ipsam, quisquam at veritatis commodi voluptatum quidem modi eius
+                            sunt excepturi quod id eligendi magnam nisi, earum ex provident
+                            inventore cupiditate!</p>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 d-xl-flex d-lg-flex d-block align-items-center">
+                    <div class="part-img">
+                        <div class="row p-7">
+                            <div class="card-body">
+                                <div class="row p-7" id="chart2">
+                                    <img src="./images/graph2.webp">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about" id="about">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="part-img">
+                        <div class="row p-7">
+                            <div class="card-body">
+                                <div class="row p-7" id="chart4">
+                                    <img src="./images/graph3.webp">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-7 col-md-7">
+                        <div class="part-txt" style="padding-top:60px;">
+                            <div class="title">
+                                <h2 style="font-size:50px;">HAte In Urdu LanGuaGe</h2>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                                ipsam, quisquam at veritatis commodi voluptatum quidem modi eius
+                                sunt excepturi quod id eligendi magnam nisi, earum ex provident
+                                inventore cupiditate!Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                                ipsam, quisquam at veritatis commodi voluptatum quidem modi eius
+                                sunt excepturi quod id eligendi magnam nisi, earum ex provident
+                                inventore cupiditate!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container" style="padding-top:100px;">
+            <div class="row justify-content-between">
+                <div class="col-xl-7 col-lg-7">
+                    <div class="banner-txt" style="padding-top:10px;">
+                        <h2 style="font-size:50px;">HatE In Roman-Urdu LanGuaGe</h2>
+                        <p style="padding-top:30px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                            ipsam, quisquam at veritatis commodi voluptatum quidem modi eius
+                            sunt excepturi quod id eligendi magnam nisi, earum ex provident
+                            inventore cupiditate!Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum
+                            ipsam, quisquam at veritatis commodi voluptatum quidem modi eius
+                            sunt excepturi quod id eligendi magnam nisi, earum ex provident
+                            inventore cupiditate!</p>
+                    </div>
+                </div>
+                <div class="col-xl-5 col-lg-5 d-xl-flex d-lg-flex d-block align-items-center">
+                    <div class="part-img">
+                        <div class="row p-7">
+                            <div class="card-body">
+                                <div class="row p-7" id="chart5">
+                                    <img src="./images/graph4.webp">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div style="background:#999a9b;">
+            <h2 style="text-align:center; font-size:60px; padding:100px;">Breaking Down Into Hate Speech Categories</h2>
+        </div>
+        <div class="container">
+
+            <div class="shadow-sm p-3 mb-5 rounded" style="background:#999a9b;">
+
+                <div class="card-body">
+                    <div class="row p-7" id="chart3">
+                        <img src="./images/graph5.webp">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="row align-items-center" style="text-align:center; padding-left:33px; padding-bottom:70px;">
+            <div class="container">
+                <div class="shadow-sm p-3 mb-5 rounded" style="background:#999a9b;">
+                    <div class="card-body">
+                        <p class="row justify content between">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ipsam,
+                            quisquam at veritatis commodi voluptatum quidem modi eius sunt excepturi
+                            quod id eligendi magnam nisi, earum ex provident inventore cupiditate!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum ipsam,
+                            quisquam at veritatis commodi voluptatum quidem modi eius sunt excepturi
+                            quod id eligendi magnam nisi, earum ex provident inventore cupiditate!
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="banner" style="padding-top: 70px; color: white;">
+            <div>
+                <div class="row ">
+                    <div class="col ">
+                        <div style="padding-top: 40px; padding-left:80px">
+                            <h3>SPY HATE</h3>
+
+                        </div>
+
+                        <p style="padding-left: 50px; padding-top: 30px;">Lorem ipsum dolor sit amet, suspendisse
+                            ultrices<br>
+                            consectetur adipiscing elit, sed do eiusmod tempor <br>incididunt ut labore et dolore magna
+                            aliqua. Quis<br> ipsum gravida. Risus vel facilisis.</p>
+
+                        <div class="container p-4 pb-0" style="margin-left:20px ;">
+                            <!-- Section: Social media -->
+                            <section class="mb-4">
+                                <!-- Facebook -->
+                                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                        class="fa fa-facebook-f"></i></a>
+
+                                <!-- Twitter -->
+                                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                        class="fa fa-twitter"></i></a>
+
+                                <!-- Google -->
+                                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                        class="fa fa-google"></i></a>
+
+                                <!-- Instagram -->
+                                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                        class="fa fa-instagram"></i></a>
+
+                                <!-- Github -->
+                                <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+                                        class="fa fa-github"></i></a>
+                            </section>
+                            <!-- Section: Social media -->
+                        </div>
+
+
+                    </div>
+
+
+                    <div class="col">
+                        <div style="display: inline-block;">
+                            <p style=" font-size: 20px;padding-top: 25px;">About</p>
+                            <div>
+                                <p style="padding-top: 30px; font-size: 20px;"> History<br>
+                                    Our Team<br>
+                                    Brand Guidelines<br>
+                                    Terms & Condition<br>
+                                    Privacy Policy</p>
+                            </div>
+                        </div>
+
+                        <div style="display: inline-block;">
+                            <p style=" font-size: 20px;padding-top: 25px">Services</p>
+                            <div>
+                                <p style="padding-top: 30px; font-size: 20px;"> How to Order<br>
+                                    Our Product<br>
+                                    Order Status<br>
+                                    Promo<br>
+                                    Payment Method</p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+            </div>
+                
+        </div>
+    </body>
+
+</html>

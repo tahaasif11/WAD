@@ -1,0 +1,57 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .banner {
+    background-image: url(./images/background.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*background-position: 100% 100%;*/
+  }
+
+
+
+  .brown {
+    font-style:italic;
+    padding-top: 20px;
+    font-family:reey_regular;
+  }
+ .menu-list ul li
+ {
+color:#ffffff;
+font-family:Arial, Helvetica, sans-serif;
+font-weight: 100px;
+}
+  .p_border {
+    font-size:100px;
+    color: #ffffff;
+    text-shadow: 0px 3px 0px rgb(255, 255, 255);
+    font-family:reey_regular;
+    font-style: italic;
+    
+  }
+  .heading {
+    color: #ffffff;
+    font-family: sans-serif;
+    font-style: italic;
+  }
+  .heading2 {
+    color: rgb(255, 255, 255);
+    font-size:15.49px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    padding-top: 20px;
+    font-style:italic;
+
+  }
+  
+  
+  
+  .card {
+    border: none !important;
+  }
+  
+ 
+
+  
