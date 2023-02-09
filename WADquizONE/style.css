@@ -1,0 +1,204 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  .banner {
+    background-image: url(./asserts/images/Rectangle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    height: 100vh;
+  }
+  .brown {
+    color: #52361b;
+  }
+  .logo {
+    max-width: 150px;
+    min-width: 162px;
+  }
+  .p_border {
+    border: 1px dashed #52361b;
+    max-width: 430px;
+    margin-top: 90px;
+  }
+  .heading {
+    font-size: 67px;
+    font-weight: 500px;
+    color: #52361b;
+    text-shadow: 0px 3px 0px rgb(255, 255, 255);
+    /* margin-bottom: -28px !important; */
+  }
+  .heading2 {
+    font-size: 47px;
+    font-weight: 500px;
+    color: #52361b;
+    text-shadow: 0px 3px 0px rgb(255, 255, 255);
+  }
+  .banner_img > img {
+    max-width: 290px;
+    max-height: auto;
+    min-width: 100%;
+  }
+  .burger1 {
+    background-image: url(./asserts/images/burger1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    height: 52vh;
+    width:82vh;
+    
+    
+    
+  }
+  .burger2 {
+    background-image: url(./asserts/images/burger2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    height: 25vh;
+  }
+  .burger3 {
+    background-image: url(./asserts/images/burger3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    height: 25vh;
+  }
+  .card {
+    border: none !important;
+  }
+  .shadow {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .indicator {
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    background-color: yellow !important;
+  }
+  .book {
+    background-image: url(./asserts/images/contact.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 10% 70%;
+    height: 80vh;
+  }
+  .footer {
+    background-image: url(./asserts/images/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+    height: 80vh;
+  }
+  .white_logo {
+    max-width: 250px !important;
+    min-width: 200px !important;
+  }
+  .footer_email {
+    width: 19px;
+    height: 16px;
+  }
+  .p_w {
+    max-width: 350px !important;
+    min-width: 200px !important;
+  }
+  
+
+  .slider-content {
+    width: 100%;
+    display: flex;
+    padding: 30px;
+    box-shadow: 10px 10px 24px -4px rgb(0 0 0 / 20%);
+}
+.slider-left {
+    width: 50%;
+}
+.slider-right {
+    width: 50%;
+}
+.menu {
+    margin-right: 50px;
+    text-align: right;
+}
+
+.menu-contact {
+    margin-bottom: 30px;
+}
+.menu-contact img {
+    vertical-align: middle;
+}
+.menu-contact span {
+    margin-left: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20.83px;
+    color: #3d2514;
+    font-weight: 700;
+    vertical-align: middle;
+}
+
+.fnd {
+  background-color: #d33838; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  padding-top: 20px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 7px;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.menu-list ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 55px;
+}
+
+.heading{
+    font-family: 'Alfa Slab One';
+    color: #3d2514;
+    font-size: 114.3px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 3.5px 3.5px 3px white;
+    font-weight: 700;
+    
+}
+.heading2{
+    font-family: 'Alfa Slab One';
+    color: #3d2514;
+    font-size:56.49px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    text-shadow: 3.5px 3.5px 3px white;
+    font-weight: 700;
+}
+.foter{
+    background-image: url('./asserts/images/footer.png');
+    
+    width: 1200px;
+    height: 500px;
+
+}
+.inp{
+
+    width: 100%;
+  padding: 15px 20px;
+  margin: 8px 0;
+padding-top: 20px;
+  border-radius:7px;
+  border-color:gray;
+
+}
