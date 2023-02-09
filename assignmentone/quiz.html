@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>chess</title>
+
+<style >
+	.black{
+		display: inline-block;
+		width: 80px;
+    	height: 80px;
+    	background-color: black;
+	}
+
+	.white{
+		display: inline-block;
+		width: 80px;
+    	height: 80px;
+    	background-color: white;
+	}
+	body{
+		background-color: skyblue;
+	}
+</style>
+
+<script>
+
+
+	function swap(abc)
+	{
+
+	Number(abc)	;
+
+	let i = 1
+	abc=25
+	// if(abc<=5)
+	// {
+	// 	i=1;
+	// 	abc=5
+	// }
+	// else if(abc>=6 && abc<=10)
+	// {
+	// 	i=6;
+	// 	abc=10
+
+	// }
+	// else if(abc>=11 && abc<=15)
+	// {
+	// 	i=11;
+	// 	abc=15
+	// }
+	// else if(abc>=16 && abc<=20)
+	// {
+	// 	i=16;
+	// 	abc=20
+	// }
+	// else if(abc>=21 && abc<=25)
+	// {
+	// 	i=21;
+	// 	abc=25
+	// }
+
+
+
+
+	for (; i <= abc; i++) 
+	{
+
+
+		let k = i.toString();
+		
+		var oneB=document.getElementById(k).className;
+		
+	
+		if(oneB=="white")
+		{
+			document.getElementById(k).className="black";
+			
+		}
+		else
+		{
+			document.getElementById(k).className="white";
+
+		}
+			
+ 	 
+	}
+
+	
+	}
+
+
+</script>
+
+</head>
+<body>
+
+	<div id="1" class="black" onclick="swap(1)"></div>
+	<div id="2" class="white" onclick="swap(2)"></div>
+	<div id="3" class="black" onclick="swap(3)"></div>
+	<div id="4" class="white" onclick="swap(4)"></div>
+	<div id="5" class="black" onclick="swap(5)"></div><br>
+
+	
+	<div id="6" class="white" onclick="swap(6)"></div>
+	<div id="7" class="black" onclick="swap(7)"></div>
+	<div id="8" class="white" onclick="swap(8)"></div>
+	<div id="9" class="black" onclick="swap(9)"></div>
+	<div id="10" class="white" onclick="swap(10)"></div><br>
+
+	<div id="11" class="black" onclick="swap(11)"></div>
+	<div id="12" class="white" onclick="swap(12)"></div>
+	<div id="13" class="black" onclick="swap(13)"></div>
+	<div id="14" class="white" onclick="swap(14)"></div>
+	<div id="15" class="black" onclick="swap(15)"></div><br>
+
+	<div id="16" class="white" onclick="swap(16)"></div>
+	<div id="17" class="black" onclick="swap(17)"></div>
+	<div id="18" class="white" onclick="swap(18)"></div>
+	<div id="19" class="black" onclick="swap(19)"></div>
+	<div id="20" class="white" onclick="swap(20)"></div><br>
+
+	<div id="21" class="black" onclick="swap(21)"></div>
+	<div id="22" class="white" onclick="swap(22)"></div>
+	<div id="23" class="black" onclick="swap(23)"></div>
+	<div id="24" class="white" onclick="swap(24)"></div>
+	<div id="25" class="black" onclick="swap(25)"></div><br>
+
+
+</body>
+</html>

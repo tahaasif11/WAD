@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title> 
+	<script type="text/javascript">
+		function myfun() {
+			var a=/[a-z]/g;
+			var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+			if(document.getElementById('myname').value.search(a)!=-1)
+			{
+				if(document.getElementById('Email').value.search(mailformat)!=-1)
+				{
+					alert("valid");
+					location.replace("index.html");	
+				}
+				else
+				{
+					alert("invalid")
+				}
+				
+			}
+			else
+			{
+				alert("invalid");
+			}
+		}
+	</script>
+	<style type="text/css">
+		#maindiv{
+			width: 300px;
+			height: 300px;
+			margin-left: auto;
+			margin-right: auto;
+			border: 1px solid black;
+			border-radius: 10px;
+			background-color: pink;
+			margin-top: 50px;
+		}
+
+	</style>
+</head>
+<body>
+	<div id="maindiv">
+		<form >
+			<center>
+				<h1>Login</h1>
+					UserName<br>
+					<input type="text" name="myname" id="myname" placeholder="Enter Your Name" required><br><br>
+					Email<br>
+					<input type="text" name="Email" id="Email" placeholder="Enter Your E-mail" required><br><br>
+					pasword<br>
+					<input type="pasword" name="pswrd" id="pswrd" placeholder="Enter strong pasword" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br><br>
+					<input type="submit" name="submit" value="submit" onclick="myfun();">		
+			</center>
+		
+			
+		</form>	
+	</div>
+	
+</body>
+</html>

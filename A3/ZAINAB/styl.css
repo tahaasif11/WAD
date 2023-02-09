@@ -1,0 +1,121 @@
+ #maindiv{
+        width: 800px;
+        height: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: pink;
+        
+      }
+      #image{
+        width: 100%;
+        height: 60%;
+        background-image: url("1.png");
+        background-repeat: no-repeat;
+        background-size: 1000px 340px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 10px;
+
+      }
+       #GFG {
+            text-decoration: none;
+        }
+      a:hover{
+        color: pink;
+      }
+      a{
+        color: white;
+      }
+      #sec1{
+        width: 100%;
+        height: 70%;
+        
+      }
+      #sec2{
+        width: 100%;
+        height: 10%;
+        margin-top: 10px;
+       
+        
+      }
+      .bk{
+        justify-content: center;
+        text-align: center;
+        padding-top: 12%;
+      }
+      button:hover
+      {
+        background-color: pink;
+      }
+
+      span:hover{
+        background-color: purple;
+      }
+      #sec3
+      {
+        width: 100%;
+        height: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 5%;
+      }
+       #sec4
+      {
+        width: 100%;
+        height: 30%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      #p1
+      {
+        width: 30%;
+        height: 100%;
+        
+        float: left;
+        margin-left: 3%;
+      }
+      #p2
+      {
+        width: 30%;
+        height: 100%;
+        
+        float: left;
+        margin-left: 1.5%; 
+
+      }
+      #p3
+      {
+        width: 30%;
+        height: 100%;
+        
+        margin-left: 67%;
+      }
+
+      #p4
+      {
+        width: 30%;
+        height: 100%;
+        
+        float: left;
+        margin-left: 3%;
+      }
+      #p5
+      {
+        width: 30%;
+        height: 100%;
+        
+        float: left;
+        margin-left: 1.5%; 
+
+      }
+      #p6
+      {
+        width: 30%;
+        height: 100%;
+        
+        margin-left: 67%;
+      }
+      img
+      {
+        border-radius: 10%;
+      }
